@@ -6,6 +6,7 @@
 :root{
     --cor-de-fundo: #0000FF;
     --cor-de-fundo-ii: #ffff;
+    --cor-dos-botoes-mb: #fff2ff;
     --cor-da-fonte: #000000;
     --fonte-i: "Averia Serif Libre", serif;
 }
@@ -102,6 +103,9 @@ main{
 }
 
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -153,6 +157,6 @@ strong{
 
     .contato__botoes{
         border: none;
-        background-color: var(--cor-de-fundo-ii);
+        background-color: var(--cor-dos-botoes-mb);
     }
 }
