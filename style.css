@@ -106,7 +106,7 @@ strong{
     color: var(--cor-da-fonte)
 }
 
-@media only screen and (max-width: 412px){
+@media only screen and (max-width: 575px){
     main{
         display: flex;
         flex-direction: column-reverse;
