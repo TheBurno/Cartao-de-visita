@@ -104,3 +104,21 @@ footer{
 strong{
     color: var(--cor-da-fonte)
 }
+
+@media (max-width: 900px){
+    .cabecalho{
+        padding: 6%;
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    .rodape{
+        margin-top: 5%;
+    }
+}
