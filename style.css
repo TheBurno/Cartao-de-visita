@@ -148,6 +148,11 @@ strong{
     }
 
     .contato__secoes{
-        margin-bottom: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .contato__botoes{
+        border: none;
+        background-color: var(--cor-de-fundo-ii);
     }
 }
