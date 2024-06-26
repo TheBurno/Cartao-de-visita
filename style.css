@@ -85,7 +85,8 @@ main{
 }
 
 .imagem{
-    padding-left: 25%;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 3%;
     width: 25%;
     height: 25%;
@@ -105,20 +106,18 @@ strong{
     color: var(--cor-da-fonte)
 }
 
-@media (max-width: 900px){
-    .cabecalho{
-        padding: 6%;
-    }
-    .cabecalho__menu{
+@media only screen and (max-width: 412px){
+    main{
+        display: flex;
+        flex-direction: column-reverse;
         justify-content: center;
     }
-    .apresentacao{
-        flex-direction: column-reverse;
-    }
-    .apresentacao__conteudo{
-        width: auto;
-    }
-    .rodape{
-        margin-top: 5%;
+
+    .imagem{
+        margin-left: auto;
+    margin-right: auto;
+    padding-top: 3%;
+    width: 50%;
+    height: 50%;
     }
 }
