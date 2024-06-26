@@ -29,7 +29,7 @@ header{
     font-weight: 400;
     font-size: 1.25rem;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-items: center;
 }
 
@@ -74,8 +74,14 @@ header{
     background-color: var(--cor-de-fundo-ii);
 }
 
+.imagem{
+    margin-left: 10%;
+    width: 50%;
+    border-radius: 16px;
+}
+
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: var(--cor-de-fundo-ii);
