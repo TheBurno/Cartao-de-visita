@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-de-fundo: #0000FF;
+    --cor-de-fundo-ii: #ffff;
+    --cor-da-fonte: #000000;
+    --fonte-i: "Averia Serif Libre", serif;
+}
+
+ion-icon{
+    font-size: 4rem;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-fonte);
+    box-sizing: border-box;
+    font-family: var(--fonte-i);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+header{
+    background-color: var(--cor-de-fundo-ii);
+    font-family: var(--fonte-i);
+    font-weight: 400;
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+
+.apresentacao{
+    margin: auto;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-items: left;
+    margin: 10px;
+}
+
+.contato__secoes{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.contato__secoes__texto{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.contato__botoes{
+    margin-bottom: 8rem;
+    width: 4rem;
+    height: 4rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    cursor: pointer;
+    border: 2px solid var(--cor-da-fonte);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.contato__botoes:hover{
+    background-color: var(--cor-de-fundo-ii);
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--cor-de-fundo-ii);
+    font-family: var(--fonte-i);
+    font-weight: 400;
+    font-size: 1.25rem;
+}
